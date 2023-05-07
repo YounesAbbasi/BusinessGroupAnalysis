@@ -21,7 +21,7 @@ malekiat_matrix = as.matrix(malekiat_Data_Frame)
 direct_share_of_family = read.csv("f_Vector_for_family.csv")
 
 #### delete columns that aren't in use
-direct_share_of_family1=subset(direct_share_of_family,select = -c(1,2,4))
+direct_share_of_family1=subset(direct_share_of_family,select = -c(1,2,3,5))
 
 #### converting direct share to matrix
 direct_share_of_family_vector = as.matrix(direct_share_of_family1)
