@@ -303,3 +303,4 @@ for (i in 1:length(postition_of_ultimated)){
 }
 
 write.csv(pos, file="D:/R_Project/Business_Group_project/position.csv")
+
